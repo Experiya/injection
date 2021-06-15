@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="google" content="notranslate">
+    <title>Testing of sql Injection</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <center class="mt-5" ><h1>SQL Injection</h1></center>
+    <section class="container mt-5 justify-content-center align-items-center d-flex">
+        <form class="w-50 " action="action_page.php" method="post">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" placeholder="Enter username" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="text" class="form-control" placeholder="Enter password" id="pwd" name="pwd">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+    
+    <script>
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+    </script>
+    <!--'OR'1'='1-->
+</body>
+
+</html>
