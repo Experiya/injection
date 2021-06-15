@@ -173,4 +173,4 @@ as the cookie has now passed to xss.php without knowing to the user.
 
 For support, email samirboro92@gmail.com 
 
-  
+Download the pdf - https://github.com/Experiya/snapshot/raw/main/Attack_samirboro_IIITG/Attack_samirboro_IIITG.pdf
